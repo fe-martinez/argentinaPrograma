@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 const PRECIO_DOLAR = 300;
 
+=======
+>>>>>>> ed1a5c26893fe5ac785cb2caa5f127e4e01ea427
 
 function ejercicios1a3 (){
     var arrayDeColores = ["ROJO", "VERDE", "AZUL", "AMARILLO", "NARANJA"];
@@ -62,6 +65,7 @@ function ingresosEnArray(){
     }
 }
 
+<<<<<<< HEAD
 function dolaresAPesos(cantidadDolares){
     return cantidadDolares * PRECIO_DOLAR;
 }
@@ -94,3 +98,15 @@ console.log(unoAlDiez);
 
 var arrayNumerosAleatorios = llenarArrayAleatorios();
 console.log(arrayNumerosAleatorios);
+=======
+
+// ejercicios1a3();
+
+// console.log(numeroAleatorio(1, 99));
+
+// var unoAlDiez = llenarArray1al10();
+// console.log(unoAlDiez);
+
+// var arrayNumerosAleatorios = llenarArrayAleatorios();
+// console.log(arrayNumerosAleatorios);
+>>>>>>> ed1a5c26893fe5ac785cb2caa5f127e4e01ea427
