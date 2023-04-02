@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript" src="clase5.js"></script>
+</head>
+<body>
+    <button type="button" name="buttonConcatenar" onclick="concatenarIngresos()"> Unir texto </button>
+    <button type="button" name="buttonArray" onclick="ingresosEnArray()"> Texto en array </button>
+
+    <form>
+        <h2>Dolares a Pesos</h2>
+        <label for="number">Dolares:</label>
+        <input type="number" id="dolares">
+        <button type="button" onclick="dolaresAPesos()">Convertir</button><br>
+        <label for="resultadoPesos">Pesos:</label>
+        <input type="number" id="resultadoPesos" readonly>
+    </form>
+
+    <form>
+        <h2>Pesos a Dolares</h2>
+        <label for="number">Pesos:</label>
+        <input type="number" id="pesos">
+        <button type="button" onclick="pesosADolares()">Convertir</button><br>
+        <label for="resultadoDolares">Dolares:</label>
+        <input type="number" id="resultadoDolares" readonly>
+    </form>
+
+    <form>
+        <h2>Centigrados a Fahrenheit</h2>
+        <label for="number">Centigrados:</label>
+        <input type="number" id="centigrados">
+        <button type="button" onclick="centigradosAFahrenheit()">Convertir</button><br>
+        <label for="resultadoFahrenheit">Fahrenheit:</label>
+        <input type="number" id="resultadoFahrenheit" readonly>
+    </form>
+
+</body>
+</html>

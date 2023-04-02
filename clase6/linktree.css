@@ -1,0 +1,75 @@
+body{
+  background-image: url("bg-palm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+.imagen_encabezado{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.titulo_encabezado{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.lista_links{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.link{
+  background-color: #9DD081;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  width: 40%;
+  height: 20%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.texto_link{
+  position: absolute;
+  text-align: center;
+  width: 40%;
+  color: #407325;
+}
+
+.imagen_link{
+  color: #407325;
+}
+
+.link:hover {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+  background-color: #54C716;
+}
+
+.socialmedia{
+  height: 64px;
+  margin: 0% 40% 0% 40%;
+  display: flex;
+  
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.lab{
+  padding: 20px;
+}

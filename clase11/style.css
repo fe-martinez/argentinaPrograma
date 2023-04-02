@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&family=Open+Sans:wght@400;700&display=swap');
+
+.navbar-logo {
+    margin-left: 25%;
+  }
+  
+.navbar-links {
+  margin-right: 25%;
+}
+
+.banner_principal {
+    font-size: 40px;
+}
+
+.titulo_blanco {
+    color: white;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+.texto_blanco {
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 22px;
+}
+
+.btn{
+    background-color: #E21982;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}

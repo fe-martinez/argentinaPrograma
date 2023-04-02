@@ -1,0 +1,116 @@
+function imprimirTipo(dato) {
+    console.log(typeof(dato));
+}
+
+function restar(num1,num2) {
+    return num1-num2;
+}
+
+function swap(num1,num2) {
+    console.log("num1: " + num1 + "\n");
+    console.log("num2: " + num2 + "\n");
+    let num3 = num1;
+    num1 = num2;
+    num2 = num3;
+    console.log("num1: " + num1 + "\n");
+    console.log("num2: " + num2 + "\n");
+}
+
+function calcularPerimetroYSuperficie(lado) {
+    console.log("Perimetro: " + lado*4 + "\n");
+    console.log("Superficie: " + lado*lado + "\n");
+}
+
+function farenheitACelsius(temperatura) {
+    return (temperatura-32) / 1.8;
+}
+
+function factorialMaxDiez(num) {
+    if(num > 10) {
+        return -1;
+    }
+    else if(num == 1 || num == 0) {
+        return 1;
+    }
+    return factorialMaxDiez(temperatura-1);
+}
+
+function esPalindromo(frase) {
+    var reversedFrase = frase.toLowerCase().replace(/ /g, '').split('').reverse().join('');
+    var fraseFinal = frase.toLowerCase().replace(/ /g, '');
+    
+    return fraseFinal == reversedFrase;
+}
+
+function printMinusYMayus(cadena) {
+    var cad = cadena;
+    console.log(cad.toLowerCase());
+    console.log(cad.toUpperCase());
+}
+
+function calificacion(nota) {
+    if(nota >= 0 && nota <= 3) {
+        console.log("Muy deficiente");
+    }
+    else if(nota > 3 && nota <= 5) {
+        console.log("Muy deficiente");
+    }
+    else if(nota > 5 && nota <= 6) {
+        console.log("Muy deficiente");
+    }
+    else if(nota > 6 && nota <= 7) {
+        console.log("Muy deficiente");
+    }
+    else if(nota > 7 && nota <= 9) {
+        console.log("Muy deficiente");
+    }
+    else if(nota > 9 && nota <= 10) {
+        console.log("Muy deficiente");
+    }
+    else {
+        console.log("Nota inválida");
+    }
+}
+
+function cantidadDeDiasDelMes(numDelMes) {
+    if(numDelMes == 2) {
+        console.log("Tiene 28 o 29 días");
+    }
+    else if(numDelMes == 4 || numDelMes == 6 || numDelMes == 9 || numDelMes == 11) {
+        console.log("Tiene 30 días")
+    }
+    else {
+        console.log("Tiene 31 días");
+    }
+}
+
+function pyramid(valor) {
+    if(valor > 10) {
+        console.log("Valor erróneo");
+    }
+    else {
+        let contador = 1;
+        for(int i = 0; i < valor; i++) {
+            console.log(contador);
+            contador++;
+        }
+    }
+}
+
+function calcularCajas(bultosEnStock,cantPorCaja) {
+    var cajasCompletas = bultosEnStock / cantPorCaja;
+    console.log("Cajas completas: " + cajasCompletas + "\n");
+    var bultosSueltos = bultosEnStock - (cajasCompletas*cantPorCaja);
+    console.log("Bultos sueltos: " + bultosSueltos);
+}
+
+function calcularDescuento() {
+    let codigo = prompt("Ingrese el código el auto: ");
+    console.log(\n);
+    if(codigo == "fiesta") {
+        console.log("5% DE DESCUENTO");
+    }
+    else if(codigo == "focus") {
+        console.log("10% DE DESCUENTO");
+    }
+}
